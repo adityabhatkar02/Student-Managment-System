@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/download1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+.gallery img{
+    width: 100%;
+    height: 200;
+}
+.des{
+    padding: 15px;
+    text-align: center;
+color:tomato;
+}
+.responsive{
+    padding: 0 10px;
+    float: left;
+    width: 25%;
+}
+@media only screen and (max-width:500px){
+    .responsive {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
